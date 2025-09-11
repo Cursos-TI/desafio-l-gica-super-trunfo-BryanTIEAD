@@ -27,3 +27,27 @@ int main() {
 
     float superPoder1 = populacao1 + area1 + pib1 + pontosTuristicos1 + pibPerCapita1 + (1 / densidade1);
     float superPoder2 = populacao2 + area2 + pib2 + pontosTuristicos2 + pibPerCapita2 + (1 / densidade2);
+
+    // ===== Exibição Carta 1 =====
+    printf("=== Carta 1 ===\n");
+    scanf("%*c");
+    printf("Estado: %s\n", estado1);
+    scanf("%*c");
+    printf("Código: %s\n", codigo1);
+    scanf("%*c");
+    printf("Nome da cidade: %s\n", nomeCidade1);
+    scanf("%*c");
+    printf("População: %lu\n", populacao1);
+    scanf("%*c");
+    printf("Área: %.2f km²\n", area1);
+    scanf("%*c");
+    printf("PIB: %.2f bilhões de reais\n", pib1);
+    scanf("%*c");
+    printf("Número de pontos turísticos: %d\n", pontosTuristicos1);
+    scanf("%*c");
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
+    scanf("%*c");
+    printf("PIB per Capita: %.2f reais\n", pibPerCapita1);
+    scanf("%*c");
+    printf("Super Poder: %.2f\n", superPoder1);
+    scanf("%*c");
