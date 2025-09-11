@@ -18,4 +18,12 @@ int main() {
     float pib2 = 47.4;
     int pontosTuristicos2 = 30;
 
-  
+  // ===== Cálculos automáticos =====
+    float densidade1 = populacao1 / area1;
+    float densidade2 = populacao2 / area2;
+
+    float pibPerCapita1 = (pib1 * 1000000000.0) / populacao1;
+    float pibPerCapita2 = (pib2 * 1000000000.0) / populacao2;
+
+    float superPoder1 = populacao1 + area1 + pib1 + pontosTuristicos1 + pibPerCapita1 + (1 / densidade1);
+    float superPoder2 = populacao2 + area2 + pib2 + pontosTuristicos2 + pibPerCapita2 + (1 / densidade2);
