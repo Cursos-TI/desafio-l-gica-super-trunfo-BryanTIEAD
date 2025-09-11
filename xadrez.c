@@ -51,3 +51,27 @@ int main() {
     scanf("%*c");
     printf("Super Poder: %.2f\n", superPoder1);
     scanf("%*c");
+
+    // ===== Exibição Carta 2 =====
+    printf("\n=== Carta 2 ===\n");
+    scanf("%*c");
+    printf("Estado: %s\n", estado2);
+    scanf("%*c");
+    printf("Código: %s\n", codigo2);
+    scanf("%*c");
+    printf("Nome da cidade: %s\n", nomeCidade2);
+    scanf("%*c");
+    printf("População: %lu\n", populacao2);
+    scanf("%*c");
+    printf("Área: %.2f km²\n", area2);
+    scanf("%*c");
+    printf("PIB: %.2f bilhões de reais\n", pib2);
+    scanf("%*c");
+    printf("Número de pontos turísticos: %d\n", pontosTuristicos2);
+    scanf("%*c");
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
+    scanf("%*c");
+    printf("PIB per Capita: %.2f reais\n", pibPerCapita2);
+    scanf("%*c");
+    printf("Super Poder: %.2f\n", superPoder2);
+    scanf("%*c");
