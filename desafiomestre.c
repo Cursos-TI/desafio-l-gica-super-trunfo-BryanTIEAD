@@ -61,3 +61,31 @@ int main() {
     }
 
     printf("=== RESULTADO DA COMPARACAO ===\n");
+
+     // Comparação do primeiro atributo
+    switch (escolha1) {
+        case 1: // Ataque
+            resultado1 = (ataque1 > ataque2) ? 1 : (ataque2 > ataque1) ? 2 : 0;
+            soma1 += ataque1;
+            soma2 += ataque2;
+            printf("Ataque -> Brasil: %d | Argentina: %d\n", ataque1, ataque2);
+            break;
+        case 2: // Defesa
+            resultado1 = (defesa1 > defesa2) ? 1 : (defesa2 > defesa1) ? 2 : 0;
+            soma1 += defesa1;
+            soma2 += defesa2;
+            printf("Defesa -> Brasil: %d | Argentina: %d\n", defesa1, defesa2);
+            break;
+        case 3: // Recuo
+            resultado1 = (recuo1 > recuo2) ? 1 : (recuo2 > recuo1) ? 2 : 0;
+            soma1 += recuo1;
+            soma2 += recuo2;
+            printf("Recuo -> Brasil: %d | Argentina: %d\n", recuo1, recuo2);
+            break;
+        case 4: // Densidade (menor vence)
+            resultado1 = (densidade1 < densidade2) ? 1 : (densidade2 < densidade1) ? 2 : 0;
+            soma1 += densidade1;
+            soma2 += densidade2;
+            printf("Densidade -> Brasil: %d | Argentina: %d\n", densidade1, densidade2);
+            break;
+    }
