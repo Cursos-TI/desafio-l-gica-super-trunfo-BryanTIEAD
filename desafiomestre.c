@@ -119,3 +119,17 @@ int main() {
             printf("Opcao invalida!\n");
             return 0;
     }
+    // Mostrar soma total
+    printf("Soma dos atributos -> Brasil: %d | Argentina: %d\n", soma1, soma2);
+
+    // Determinar vencedor pela soma
+    if (soma1 > soma2) {
+        printf("Resultado Final: Brasil venceu a rodada!\n");
+    } else if (soma2 > soma1) {
+        printf("Resultado Final: Argentina venceu a rodada!\n");
+    } else {
+        printf("Resultado Final: Empate!\n");
+    }
+
+    return 0;
+}
