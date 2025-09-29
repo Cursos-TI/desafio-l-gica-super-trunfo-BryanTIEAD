@@ -24,3 +24,11 @@ int main() {
     printf("Ataque: %d | Defesa: %d | Recuo: %d | Densidade: %d\n", ataque1, defesa1, recuo1, densidade1);
     printf("Carta 2 (Argentina)\n");
     printf("Ataque: %d | Defesa: %d | Recuo: %d | Densidade: %d\n", ataque2, defesa2, recuo2, densidade2);
+
+    // Menu interativo - escolha do primeiro atributo
+    printf("Escolha o PRIMEIRO atributo:\n");
+    printf("1 - Ataque\n");
+    printf("2 - Defesa\n");
+    printf("3 - Recuo\n");
+    printf("4 - Densidade Demografica\n");
+    scanf("%d", &escolha1);
