@@ -32,3 +32,32 @@ int main() {
     printf("3 - Recuo\n");
     printf("4 - Densidade Demografica\n");
     scanf("%d", &escolha1);
+
+    // Menu dinâmico - o segundo não pode ser igual ao primeiro
+    printf("Escolha o SEGUNDO atributo (diferente do primeiro):\n");
+    switch (escolha1) {
+        case 1:
+            printf("2 - Defesa3 - Recuo4 - Densidade Demografica\n");
+            break;
+        case 2:
+            printf("1 - Ataque3 - Recuo4 - Densidade Demografica\n");
+            break;
+        case 3:
+            printf("1 - Ataque2 - Defesa4 - Densidade Demografica\n");
+            break;
+        case 4:
+            printf("1 - Ataque2 - Defesa3 - Recuo\n");
+            break;
+        default:
+            printf("Opcao invalida!\n");
+            return 0;
+    }
+    scanf("%d", &escolha2);
+
+    // Garantir que não seja repetido
+    if (escolha1 == escolha2) {
+        printf("Voce nao pode escolher o mesmo atributo duas vezes!\n");
+        return 0;
+    }
+
+    printf("=== RESULTADO DA COMPARACAO ===\n");
